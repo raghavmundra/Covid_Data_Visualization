@@ -1,0 +1,1685 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_aec515486c8c4f5f97605549769f8ce9 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_aec515486c8c4f5f97605549769f8ce9" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_aec515486c8c4f5f97605549769f8ce9 = L.map(
+        'map_aec515486c8c4f5f97605549769f8ce9', {
+        center: [22, 78.9629],
+        zoom: 4.5,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_62273721949849e0a0e5d9a4bafe6b70 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+    
+            var circle_marker_488ad03b07974111bf88e5e7caae53a1 = L.circleMarker(
+                [10.0001051, 93.0000194],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_bedc9794c5524041b8bb76c85bfb9829 = L.marker(
+            [10.0001051, 93.0000194],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_c79fdd533324424fb2aeb2e5e2239b9d = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_dac4878e9e334482802df8315d0f587a = $(`<div id="html_dac4878e9e334482802df8315d0f587a" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Andaman and Nicobar</strong> <br><strong><b>Total Cases : 7651</strong><br><strong><font color= red>Deaths : </font>129</strong><br><strong><font color=green>Recoveries : </font>7517</strong><br><strong><b>Active Cases : 5</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 293904</strong><br><strong><b>Dose 2  : 198731</strong><br><strong><b>Total Doses : 492635</strong><br></div>`)[0];
+                popup_c79fdd533324424fb2aeb2e5e2239b9d.setContent(html_dac4878e9e334482802df8315d0f587a);
+            
+
+            marker_bedc9794c5524041b8bb76c85bfb9829.bindPopup(popup_c79fdd533324424fb2aeb2e5e2239b9d)
+            ;
+
+            
+        
+    
+            var circle_marker_c5153ad944b14fe0ab55254be0112835 = L.circleMarker(
+                [15.9240905, 80.1863809],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_f74a4f78f7f5407b860e9a0c0ba0fe50 = L.marker(
+            [15.9240905, 80.1863809],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_418b2aa32a1149bd97139b29d24ac7b5 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_7af53fa846e74ed3b48a34e093bcbb75 = $(`<div id="html_7af53fa846e74ed3b48a34e093bcbb75" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Andhra Pradesh</strong> <br><strong><b>Total Cases : 2065716</strong><br><strong><font color= red>Deaths : </font>14367</strong><br><strong><font color=green>Recoveries : </font>2046512</strong><br><strong><b>Active Cases : 4837</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 32814038</strong><br><strong><b>Dose 2  : 20072881</strong><br><strong><b>Total Doses : 52886919</strong><br></div>`)[0];
+                popup_418b2aa32a1149bd97139b29d24ac7b5.setContent(html_7af53fa846e74ed3b48a34e093bcbb75);
+            
+
+            marker_f74a4f78f7f5407b860e9a0c0ba0fe50.bindPopup(popup_418b2aa32a1149bd97139b29d24ac7b5)
+            ;
+
+            
+        
+    
+            var circle_marker_4c1f4a879d0e4067876db718ef5b4add = L.circleMarker(
+                [28.0937702, 94.5921326],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_668c07eb062b4bf5b80cce4e36b64113 = L.marker(
+            [28.0937702, 94.5921326],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_318bff5485654941ba920940157700b4 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_fb40f1f2f4804a7790b4cd0f3fc78e88 = $(`<div id="html_fb40f1f2f4804a7790b4cd0f3fc78e88" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Arunachal Pradesh</strong> <br><strong><b>Total Cases : 55143</strong><br><strong><font color= red>Deaths : </font>280</strong><br><strong><font color=green>Recoveries : </font>54755</strong><br><strong><b>Active Cases : 108</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 771430</strong><br><strong><b>Dose 2  : 531959</strong><br><strong><b>Total Doses : 1303389</strong><br></div>`)[0];
+                popup_318bff5485654941ba920940157700b4.setContent(html_fb40f1f2f4804a7790b4cd0f3fc78e88);
+            
+
+            marker_668c07eb062b4bf5b80cce4e36b64113.bindPopup(popup_318bff5485654941ba920940157700b4)
+            ;
+
+            
+        
+    
+            var circle_marker_74fad0433532495293581527bb1c7502 = L.circleMarker(
+                [26.4073841, 93.2551303],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_5e521c6b7d6b40ee9cbe8492aa5a971e = L.marker(
+            [26.4073841, 93.2551303],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_4eada6c71a934265b26bc6e0dbc8d57f = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_cbd6813b21ee44a69b153e791ee8ae2d = $(`<div id="html_cbd6813b21ee44a69b153e791ee8ae2d" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Assam</strong> <br><strong><b>Total Cases : 610150</strong><br><strong><font color= red>Deaths : </font>5992</strong><br><strong><font color=green>Recoveries : </font>600367</strong><br><strong><b>Active Cases : 3791</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 20106832</strong><br><strong><b>Dose 2  : 7902711</strong><br><strong><b>Total Doses : 28009543</strong><br></div>`)[0];
+                popup_4eada6c71a934265b26bc6e0dbc8d57f.setContent(html_cbd6813b21ee44a69b153e791ee8ae2d);
+            
+
+            marker_5e521c6b7d6b40ee9cbe8492aa5a971e.bindPopup(popup_4eada6c71a934265b26bc6e0dbc8d57f)
+            ;
+
+            
+        
+    
+            var circle_marker_999816ee63974af2aa0f8d03188691e3 = L.circleMarker(
+                [25.6440845, 85.906508],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_64b6cfc1acce4692a84a3f11ea4e7a5c = L.marker(
+            [25.6440845, 85.906508],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_120ec1761ef64bebbdfc9ce3daa53a3f = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_5d794fd778514e4393b696507633376e = $(`<div id="html_5d794fd778514e4393b696507633376e" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Bihar</strong> <br><strong><b>Total Cases : 726085</strong><br><strong><font color= red>Deaths : </font>9661</strong><br><strong><font color=green>Recoveries : </font>716379</strong><br><strong><b>Active Cases : 45</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 49637936</strong><br><strong><b>Dose 2  : 18014002</strong><br><strong><b>Total Doses : 67651938</strong><br></div>`)[0];
+                popup_120ec1761ef64bebbdfc9ce3daa53a3f.setContent(html_5d794fd778514e4393b696507633376e);
+            
+
+            marker_64b6cfc1acce4692a84a3f11ea4e7a5c.bindPopup(popup_120ec1761ef64bebbdfc9ce3daa53a3f)
+            ;
+
+            
+        
+    
+            var circle_marker_c974a0504eb54dcaac182a66b384ab61 = L.circleMarker(
+                [30.7334421, 76.7797143],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_d69b9d1235e3494e91a5eda5820345a9 = L.marker(
+            [30.7334421, 76.7797143],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_8959ef3a5f52403f82260dc2133728f1 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_173fa792b2f94d1fb232039508c8d6f8 = $(`<div id="html_173fa792b2f94d1fb232039508c8d6f8" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Chandigarh</strong> <br><strong><b>Total Cases : 65340</strong><br><strong><font color= red>Deaths : </font>820</strong><br><strong><font color=green>Recoveries : </font>64490</strong><br><strong><b>Active Cases : 30</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 925246</strong><br><strong><b>Dose 2  : 541908</strong><br><strong><b>Total Doses : 1467154</strong><br></div>`)[0];
+                popup_8959ef3a5f52403f82260dc2133728f1.setContent(html_173fa792b2f94d1fb232039508c8d6f8);
+            
+
+            marker_d69b9d1235e3494e91a5eda5820345a9.bindPopup(popup_8959ef3a5f52403f82260dc2133728f1)
+            ;
+
+            
+        
+    
+            var circle_marker_6781193854df4d2ead48f0a2b4c0a038 = L.circleMarker(
+                [21.6637359, 81.8406351],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_efbe6503a8e345d99c0293c3cda29e27 = L.marker(
+            [21.6637359, 81.8406351],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_7209d454365d4a8ba6c474162abf4e43 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_b00420c1b2d741fcb1d12cc84960c5e4 = $(`<div id="html_b00420c1b2d741fcb1d12cc84960c5e4" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Chhattisgarh</strong> <br><strong><b>Total Cases : 1005985</strong><br><strong><font color= red>Deaths : </font>13575</strong><br><strong><font color=green>Recoveries : </font>992110</strong><br><strong><b>Active Cases : 300</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 14777967</strong><br><strong><b>Dose 2  : 7226577</strong><br><strong><b>Total Doses : 22004544</strong><br></div>`)[0];
+                popup_7209d454365d4a8ba6c474162abf4e43.setContent(html_b00420c1b2d741fcb1d12cc84960c5e4);
+            
+
+            marker_efbe6503a8e345d99c0293c3cda29e27.bindPopup(popup_7209d454365d4a8ba6c474162abf4e43)
+            ;
+
+            
+        
+    
+            var circle_marker_73047825c9934640ae12f597676eb223 = L.circleMarker(
+                [20.718174949999998, 70.93238341010638],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_36e153a747a9468bb5779c6ac16749df = L.marker(
+            [20.718174949999998, 70.93238341010638],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_a047a059345a4f788cde59554676259b = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_fa9bec89eb614b6fb1af02256150d7f7 = $(`<div id="html_fa9bec89eb614b6fb1af02256150d7f7" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Dadra and Nagar Haveli and Daman and Diu</strong> <br><strong><b>Total Cases : 10682</strong><br><strong><font color= red>Deaths : </font>4</strong><br><strong><font color=green>Recoveries : </font>10672</strong><br><strong><b>Active Cases : 6</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 660648</strong><br><strong><b>Dose 2  : 369465</strong><br><strong><b>Total Doses : 1030113</strong><br></div>`)[0];
+                popup_a047a059345a4f788cde59554676259b.setContent(html_fa9bec89eb614b6fb1af02256150d7f7);
+            
+
+            marker_36e153a747a9468bb5779c6ac16749df.bindPopup(popup_a047a059345a4f788cde59554676259b)
+            ;
+
+            
+        
+    
+            var circle_marker_3a8aa40a04cc41dd90a82716758b9519 = L.circleMarker(
+                [28.6517178, 77.2219388],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_b91c81b976b64430bed4265ba9af6b92 = L.marker(
+            [28.6517178, 77.2219388],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_baff072c6f6942b6b04d00072dd06c28 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_6b26edc5b7fc4c32bb50507e339aca4b = $(`<div id="html_6b26edc5b7fc4c32bb50507e339aca4b" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Delhi</strong> <br><strong><b>Total Cases : 1439788</strong><br><strong><font color= red>Deaths : </font>25091</strong><br><strong><font color=green>Recoveries : </font>1414363</strong><br><strong><b>Active Cases : 334</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 13013583</strong><br><strong><b>Dose 2  : 7364070</strong><br><strong><b>Total Doses : 20377653</strong><br></div>`)[0];
+                popup_baff072c6f6942b6b04d00072dd06c28.setContent(html_6b26edc5b7fc4c32bb50507e339aca4b);
+            
+
+            marker_b91c81b976b64430bed4265ba9af6b92.bindPopup(popup_baff072c6f6942b6b04d00072dd06c28)
+            ;
+
+            
+        
+    
+            var circle_marker_ec37e3f33d57400a97791187e54c1003 = L.circleMarker(
+                [15.3004543, 74.0855134],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_f6d97c889ffe4390a488f8687ea180e2 = L.marker(
+            [15.3004543, 74.0855134],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_db4f8f15ab154d11907fd836e7d17bc9 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_dc9055e664e84737b24161bc3a35162c = $(`<div id="html_dc9055e664e84737b24161bc3a35162c" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Goa</strong> <br><strong><b>Total Cases : 178063</strong><br><strong><font color= red>Deaths : </font>3363</strong><br><strong><font color=green>Recoveries : </font>174289</strong><br><strong><b>Active Cases : 411</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 1258903</strong><br><strong><b>Dose 2  : 892242</strong><br><strong><b>Total Doses : 2151145</strong><br></div>`)[0];
+                popup_db4f8f15ab154d11907fd836e7d17bc9.setContent(html_dc9055e664e84737b24161bc3a35162c);
+            
+
+            marker_f6d97c889ffe4390a488f8687ea180e2.bindPopup(popup_db4f8f15ab154d11907fd836e7d17bc9)
+            ;
+
+            
+        
+    
+            var circle_marker_be1df7297f2f49beae86a6d242fbdeab = L.circleMarker(
+                [22.3850051, 71.745261],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_cc3b987567764ec68456d22eb3451257 = L.marker(
+            [22.3850051, 71.745261],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_b4d2b00e83084ee1887e7fb6a5646df9 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_3ae903a3e5d748ce8d4ca14f5ccb311d = $(`<div id="html_3ae903a3e5d748ce8d4ca14f5ccb311d" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Gujarat</strong> <br><strong><b>Total Cases : 826526</strong><br><strong><font color= red>Deaths : </font>10088</strong><br><strong><font color=green>Recoveries : </font>816246</strong><br><strong><b>Active Cases : 192</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 44673748</strong><br><strong><b>Dose 2  : 25591720</strong><br><strong><b>Total Doses : 70265468</strong><br></div>`)[0];
+                popup_b4d2b00e83084ee1887e7fb6a5646df9.setContent(html_3ae903a3e5d748ce8d4ca14f5ccb311d);
+            
+
+            marker_cc3b987567764ec68456d22eb3451257.bindPopup(popup_b4d2b00e83084ee1887e7fb6a5646df9)
+            ;
+
+            
+        
+    
+            var circle_marker_a7ceadb615e24ecfb166e50bad5c7388 = L.circleMarker(
+                [29.0, 76.0],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_bd56df20e20a46e89dea5b36cfff062a = L.marker(
+            [29.0, 76.0],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_a60d87f1e7df44689a11e9dad93c46c7 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_0826c381e9464242a1f0e4521d12378d = $(`<div id="html_0826c381e9464242a1f0e4521d12378d" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Haryana</strong> <br><strong><b>Total Cases : 771229</strong><br><strong><font color= red>Deaths : </font>10049</strong><br><strong><font color=green>Recoveries : </font>761047</strong><br><strong><b>Active Cases : 133</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 17743678</strong><br><strong><b>Dose 2  : 8052991</strong><br><strong><b>Total Doses : 25796669</strong><br></div>`)[0];
+                popup_a60d87f1e7df44689a11e9dad93c46c7.setContent(html_0826c381e9464242a1f0e4521d12378d);
+            
+
+            marker_bd56df20e20a46e89dea5b36cfff062a.bindPopup(popup_a60d87f1e7df44689a11e9dad93c46c7)
+            ;
+
+            
+        
+    
+            var circle_marker_c61c35d984204f7ba0b635cbcfbb1599 = L.circleMarker(
+                [31.81676015, 77.34932051968858],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_f318ac6ff965463aad68baeb22867e67 = L.marker(
+            [31.81676015, 77.34932051968858],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_bb76b0884f0b4fcf91f3e5d88e09fb61 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_c4aa7a4bdcd841178dc52fda2481612d = $(`<div id="html_c4aa7a4bdcd841178dc52fda2481612d" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Himachal Pradesh</strong> <br><strong><b>Total Cases : 223876</strong><br><strong><font color= red>Deaths : </font>3748</strong><br><strong><font color=green>Recoveries : </font>218150</strong><br><strong><b>Active Cases : 1978</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 5711374</strong><br><strong><b>Dose 2  : 3401299</strong><br><strong><b>Total Doses : 9112673</strong><br></div>`)[0];
+                popup_bb76b0884f0b4fcf91f3e5d88e09fb61.setContent(html_c4aa7a4bdcd841178dc52fda2481612d);
+            
+
+            marker_f318ac6ff965463aad68baeb22867e67.bindPopup(popup_bb76b0884f0b4fcf91f3e5d88e09fb61)
+            ;
+
+            
+        
+    
+            var circle_marker_2c12ab8e4ade4f7fac9313aa9a8998a5 = L.circleMarker(
+                [33.6649297, 75.1629584],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_f61c5fcafeb3410f84ea86a82b62b9ff = L.marker(
+            [33.6649297, 75.1629584],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_3f8813e49bd946ecaac759da6247d232 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_2a1e1e3d817e402a8d3a7231c7135709 = $(`<div id="html_2a1e1e3d817e402a8d3a7231c7135709" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Jammu and Kashmir</strong> <br><strong><b>Total Cases : 332053</strong><br><strong><font color= red>Deaths : </font>4432</strong><br><strong><font color=green>Recoveries : </font>326749</strong><br><strong><b>Active Cases : 872</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 9505385</strong><br><strong><b>Dose 2  : 5039761</strong><br><strong><b>Total Doses : 14545146</strong><br></div>`)[0];
+                popup_3f8813e49bd946ecaac759da6247d232.setContent(html_2a1e1e3d817e402a8d3a7231c7135709);
+            
+
+            marker_f61c5fcafeb3410f84ea86a82b62b9ff.bindPopup(popup_3f8813e49bd946ecaac759da6247d232)
+            ;
+
+            
+        
+    
+            var circle_marker_ae160ed0d57a41378f640f0504278076 = L.circleMarker(
+                [23.4559809, 85.2557301],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_725f757d2fdc4210a93f128b44d76345 = L.marker(
+            [23.4559809, 85.2557301],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_4ee53c31f91a4087bbeb053a163b268e = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_9eac3287263f43648de4ce70fafb3908 = $(`<div id="html_9eac3287263f43648de4ce70fafb3908" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Jharkhand</strong> <br><strong><b>Total Cases : 348736</strong><br><strong><font color= red>Deaths : </font>5138</strong><br><strong><font color=green>Recoveries : </font>343505</strong><br><strong><b>Active Cases : 93</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 14903440</strong><br><strong><b>Dose 2  : 5480472</strong><br><strong><b>Total Doses : 20383912</strong><br></div>`)[0];
+                popup_4ee53c31f91a4087bbeb053a163b268e.setContent(html_9eac3287263f43648de4ce70fafb3908);
+            
+
+            marker_725f757d2fdc4210a93f128b44d76345.bindPopup(popup_4ee53c31f91a4087bbeb053a163b268e)
+            ;
+
+            
+        
+    
+            var circle_marker_9e07c465ad61414ea1f3a4b0e86d748f = L.circleMarker(
+                [14.5203896, 75.7223521],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_6532e04baac7448e83c1b69e4b5ffbad = L.marker(
+            [14.5203896, 75.7223521],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_b6c6e60fad234186a81fa4e1e2177beb = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_52d3966fe97a465d920107e03cac2e8b = $(`<div id="html_52d3966fe97a465d920107e03cac2e8b" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Karnataka</strong> <br><strong><b>Total Cases : 2987694</strong><br><strong><font color= red>Deaths : </font>38061</strong><br><strong><font color=green>Recoveries : </font>2940978</strong><br><strong><b>Active Cases : 8655</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 42408235</strong><br><strong><b>Dose 2  : 22680416</strong><br><strong><b>Total Doses : 65088651</strong><br></div>`)[0];
+                popup_b6c6e60fad234186a81fa4e1e2177beb.setContent(html_52d3966fe97a465d920107e03cac2e8b);
+            
+
+            marker_6532e04baac7448e83c1b69e4b5ffbad.bindPopup(popup_b6c6e60fad234186a81fa4e1e2177beb)
+            ;
+
+            
+        
+    
+            var circle_marker_e3a6d279e4a7498aa556b6ea207cc5cf = L.circleMarker(
+                [10.3528744, 76.5120396],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_d667a8163be247aea9445d9ef57bc497 = L.marker(
+            [10.3528744, 76.5120396],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_c025da16a46f4c889817f16feaceb273 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_a99b8dbbe65c4827ac9134d5fd1b20d9 = $(`<div id="html_a99b8dbbe65c4827ac9134d5fd1b20d9" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Kerala</strong> <br><strong><b>Total Cases : 4954063</strong><br><strong><font color= red>Deaths : </font>31156</strong><br><strong><font color=green>Recoveries : </font>4843576</strong><br><strong><b>Active Cases : 79331</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 25281051</strong><br><strong><b>Dose 2  : 13499908</strong><br><strong><b>Total Doses : 38780959</strong><br></div>`)[0];
+                popup_c025da16a46f4c889817f16feaceb273.setContent(html_a99b8dbbe65c4827ac9134d5fd1b20d9);
+            
+
+            marker_d667a8163be247aea9445d9ef57bc497.bindPopup(popup_c025da16a46f4c889817f16feaceb273)
+            ;
+
+            
+        
+    
+            var circle_marker_1283800297b2414fb43f5fa16518eca6 = L.circleMarker(
+                [33.9456407, 77.6568576],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_b3fcd7482fc545f3af21bafb03e04c1e = L.marker(
+            [33.9456407, 77.6568576],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_b3b12938973b4f86a7d7a561370afa64 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_174223de254c490da6e8ebcb608236d0 = $(`<div id="html_174223de254c490da6e8ebcb608236d0" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Ladakh</strong> <br><strong><b>Total Cases : 20941</strong><br><strong><font color= red>Deaths : </font>208</strong><br><strong><font color=green>Recoveries : </font>20675</strong><br><strong><b>Active Cases : 58</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 208752</strong><br><strong><b>Dose 2  : 152006</strong><br><strong><b>Total Doses : 360758</strong><br></div>`)[0];
+                popup_b3b12938973b4f86a7d7a561370afa64.setContent(html_174223de254c490da6e8ebcb608236d0);
+            
+
+            marker_b3fcd7482fc545f3af21bafb03e04c1e.bindPopup(popup_b3b12938973b4f86a7d7a561370afa64)
+            ;
+
+            
+        
+    
+            var circle_marker_ed95d76986c44d09921829800cee38f3 = L.circleMarker(
+                [10.8132489, 73.6804620941119],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_3cb5c43232e4469fb9da68c475b06ed5 = L.marker(
+            [10.8132489, 73.6804620941119],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_96645073a308490d801ca86d2ed7d78f = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_4d6d7f60cf9646e593d02985cab64416 = $(`<div id="html_4d6d7f60cf9646e593d02985cab64416" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Lakshadweep</strong> <br><strong><b>Total Cases : 10365</strong><br><strong><font color= red>Deaths : </font>51</strong><br><strong><font color=green>Recoveries : </font>10314</strong><br><strong><b>Active Cases : 0</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 55086</strong><br><strong><b>Dose 2  : 45832</strong><br><strong><b>Total Doses : 100918</strong><br></div>`)[0];
+                popup_96645073a308490d801ca86d2ed7d78f.setContent(html_4d6d7f60cf9646e593d02985cab64416);
+            
+
+            marker_3cb5c43232e4469fb9da68c475b06ed5.bindPopup(popup_96645073a308490d801ca86d2ed7d78f)
+            ;
+
+            
+        
+    
+            var circle_marker_026ace20259b458296c132685474a2c5 = L.circleMarker(
+                [18.9068356, 75.6741579],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_b92c43fd8aa64ffba2d7c9269b91add0 = L.marker(
+            [18.9068356, 75.6741579],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_0fd91cc4cf18481c875c3e49664b3e81 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_978605988b95415aa454d3c19657893f = $(`<div id="html_978605988b95415aa454d3c19657893f" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Maharashtra</strong> <br><strong><b>Total Cases : 6609292</strong><br><strong><font color= red>Deaths : </font>140170</strong><br><strong><font color=green>Recoveries : </font>6447038</strong><br><strong><b>Active Cases : 22084</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 49869109</strong><br><strong><b>Dose 2  : 20209648</strong><br><strong><b>Total Doses : 70078757</strong><br></div>`)[0];
+                popup_0fd91cc4cf18481c875c3e49664b3e81.setContent(html_978605988b95415aa454d3c19657893f);
+            
+
+            marker_b92c43fd8aa64ffba2d7c9269b91add0.bindPopup(popup_0fd91cc4cf18481c875c3e49664b3e81)
+            ;
+
+            
+        
+    
+            var circle_marker_1c459e7f30bf49c998e852583d2ca71e = L.circleMarker(
+                [24.7208818, 93.9229386],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_6def803e0ee54abd8e54466ca9ef806d = L.marker(
+            [24.7208818, 93.9229386],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_12f236b0dd40412286f8dbe08ad6c9dd = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_cfd11bfc6389441588549470bf165097 = $(`<div id="html_cfd11bfc6389441588549470bf165097" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Manipur</strong> <br><strong><b>Total Cases : 123609</strong><br><strong><font color= red>Deaths : </font>1919</strong><br><strong><font color=green>Recoveries : </font>120819</strong><br><strong><b>Active Cases : 871</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 66908849</strong><br><strong><b>Dose 2  : 30750033</strong><br><strong><b>Total Doses : 97658882</strong><br></div>`)[0];
+                popup_12f236b0dd40412286f8dbe08ad6c9dd.setContent(html_cfd11bfc6389441588549470bf165097);
+            
+
+            marker_6def803e0ee54abd8e54466ca9ef806d.bindPopup(popup_12f236b0dd40412286f8dbe08ad6c9dd)
+            ;
+
+            
+        
+    
+            var circle_marker_a7d202a2e1cb42c393183efc882d75e4 = L.circleMarker(
+                [25.5379432, 91.2999102],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_22a9cfa5de694606b4654bbdd290c212 = L.marker(
+            [25.5379432, 91.2999102],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_2eb8508e9b5f4d4b9cd143f34e1229b6 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_99adcdfcace54a64843bde1c674e9424 = $(`<div id="html_99adcdfcace54a64843bde1c674e9424" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Meghalaya</strong> <br><strong><b>Total Cases : 83559</strong><br><strong><font color= red>Deaths : </font>1449</strong><br><strong><font color=green>Recoveries : </font>81628</strong><br><strong><b>Active Cases : 482</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 1247600</strong><br><strong><b>Dose 2  : 702685</strong><br><strong><b>Total Doses : 1950285</strong><br></div>`)[0];
+                popup_2eb8508e9b5f4d4b9cd143f34e1229b6.setContent(html_99adcdfcace54a64843bde1c674e9424);
+            
+
+            marker_22a9cfa5de694606b4654bbdd290c212.bindPopup(popup_2eb8508e9b5f4d4b9cd143f34e1229b6)
+            ;
+
+            
+        
+    
+            var circle_marker_db2a50405932424796e40f39bdbe608e = L.circleMarker(
+                [23.2146169, 92.8687612],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_7b8ab6d53c624a62ba7a8da80a71f850 = L.marker(
+            [23.2146169, 92.8687612],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_f48fe09917034128b30bc690905d69bb = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_f43130e23e404de7847ee36e77a6d33b = $(`<div id="html_f43130e23e404de7847ee36e77a6d33b" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Mizoram</strong> <br><strong><b>Total Cases : 120780</strong><br><strong><font color= red>Deaths : </font>427</strong><br><strong><font color=green>Recoveries : </font>113246</strong><br><strong><b>Active Cases : 7107</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 1102153</strong><br><strong><b>Dose 2  : 637212</strong><br><strong><b>Total Doses : 1739365</strong><br></div>`)[0];
+                popup_f48fe09917034128b30bc690905d69bb.setContent(html_f43130e23e404de7847ee36e77a6d33b);
+            
+
+            marker_7b8ab6d53c624a62ba7a8da80a71f850.bindPopup(popup_f48fe09917034128b30bc690905d69bb)
+            ;
+
+            
+        
+    
+            var circle_marker_dea1d44869fc44f9acb16385b9ff5a5f = L.circleMarker(
+                [23.8143419, 77.5340719],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_3f078e31ac684abc9880df3e440ca2db = L.marker(
+            [23.8143419, 77.5340719],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_8db9f6e8c23d482c9d95e4d5b9f34bc7 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_52bb9f6f5936437d8a7dd7852c7684a8 = $(`<div id="html_52bb9f6f5936437d8a7dd7852c7684a8" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Madhya Pradesh</strong> <br><strong><b>Total Cases : 792832</strong><br><strong><font color= red>Deaths : </font>10524</strong><br><strong><font color=green>Recoveries : </font>782195</strong><br><strong><b>Active Cases : 113</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 711341</strong><br><strong><b>Dose 2  : 511799</strong><br><strong><b>Total Doses : 1223140</strong><br></div>`)[0];
+                popup_8db9f6e8c23d482c9d95e4d5b9f34bc7.setContent(html_52bb9f6f5936437d8a7dd7852c7684a8);
+            
+
+            marker_3f078e31ac684abc9880df3e440ca2db.bindPopup(popup_8db9f6e8c23d482c9d95e4d5b9f34bc7)
+            ;
+
+            
+        
+    
+            var circle_marker_f453104b1f8f4e18b0304b43736793bb = L.circleMarker(
+                [26.1630556, 94.5884911],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_c0211f2bfcd64bbdaa5595ba71581d86 = L.marker(
+            [26.1630556, 94.5884911],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_03301bb576204ac8a3c7555dc64ae320 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_73d882c64a1246648f44d0a9e5c666e7 = $(`<div id="html_73d882c64a1246648f44d0a9e5c666e7" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Nagaland</strong> <br><strong><b>Total Cases : 31811</strong><br><strong><font color= red>Deaths : </font>684</strong><br><strong><font color=green>Recoveries : </font>30905</strong><br><strong><b>Active Cases : 222</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 709066</strong><br><strong><b>Dose 2  : 488677</strong><br><strong><b>Total Doses : 1197743</strong><br></div>`)[0];
+                popup_03301bb576204ac8a3c7555dc64ae320.setContent(html_73d882c64a1246648f44d0a9e5c666e7);
+            
+
+            marker_c0211f2bfcd64bbdaa5595ba71581d86.bindPopup(popup_03301bb576204ac8a3c7555dc64ae320)
+            ;
+
+            
+        
+    
+            var circle_marker_8fb1c02cb6434df3b98c6db5087ec9ae = L.circleMarker(
+                [20.5431241, 84.6897321],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_069b8b23a93841bb9adcfd017294aa5c = L.marker(
+            [20.5431241, 84.6897321],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_674ffdec33de40d0b547ce7b19d2956c = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_485951208daf4915917fc3ea215e9b33 = $(`<div id="html_485951208daf4915917fc3ea215e9b33" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Odisha</strong> <br><strong><b>Total Cases : 1040595</strong><br><strong><font color= red>Deaths : </font>8325</strong><br><strong><font color=green>Recoveries : </font>1028207</strong><br><strong><b>Active Cases : 4063</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 25614153</strong><br><strong><b>Dose 2  : 11391448</strong><br><strong><b>Total Doses : 37005601</strong><br></div>`)[0];
+                popup_674ffdec33de40d0b547ce7b19d2956c.setContent(html_485951208daf4915917fc3ea215e9b33);
+            
+
+            marker_069b8b23a93841bb9adcfd017294aa5c.bindPopup(popup_674ffdec33de40d0b547ce7b19d2956c)
+            ;
+
+            
+        
+    
+            var circle_marker_4ad5bde020d34f70b23fba8974e110e9 = L.circleMarker(
+                [11.9340568, 79.8306447],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_1692a07dbcf248df8ceae85937b0b27f = L.marker(
+            [11.9340568, 79.8306447],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_fb5803b458654510a9e414ad4f7bc649 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_daddf600bc594d6ab095c02dc7025631 = $(`<div id="html_daddf600bc594d6ab095c02dc7025631" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Puducherry</strong> <br><strong><b>Total Cases : 127936</strong><br><strong><font color= red>Deaths : </font>1857</strong><br><strong><font color=green>Recoveries : </font>125633</strong><br><strong><b>Active Cases : 446</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 733096</strong><br><strong><b>Dose 2  : 401638</strong><br><strong><b>Total Doses : 1134734</strong><br></div>`)[0];
+                popup_fb5803b458654510a9e414ad4f7bc649.setContent(html_daddf600bc594d6ab095c02dc7025631);
+            
+
+            marker_1692a07dbcf248df8ceae85937b0b27f.bindPopup(popup_fb5803b458654510a9e414ad4f7bc649)
+            ;
+
+            
+        
+    
+            var circle_marker_fc1ccd88bcea4d1f9216e4d389d37f12 = L.circleMarker(
+                [30.9293211, 75.5004841],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_2c7faf47de1e4f3d8ceef2175cfcaede = L.marker(
+            [30.9293211, 75.5004841],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_860f7629a9084dec92224a9d0756a334 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_ba794632c038485c8fbfe34d85617155 = $(`<div id="html_ba794632c038485c8fbfe34d85617155" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Punjab</strong> <br><strong><b>Total Cases : 602349</strong><br><strong><font color= red>Deaths : </font>16557</strong><br><strong><font color=green>Recoveries : </font>585539</strong><br><strong><b>Active Cases : 253</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 15907330</strong><br><strong><b>Dose 2  : 6194617</strong><br><strong><b>Total Doses : 22101947</strong><br></div>`)[0];
+                popup_860f7629a9084dec92224a9d0756a334.setContent(html_ba794632c038485c8fbfe34d85617155);
+            
+
+            marker_2c7faf47de1e4f3d8ceef2175cfcaede.bindPopup(popup_860f7629a9084dec92224a9d0756a334)
+            ;
+
+            
+        
+    
+            var circle_marker_fbcec057a10c4e24bd950f1012fdcde9 = L.circleMarker(
+                [26.8105777, 73.7684549],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_b3fa1a5659f249518f907695b557f6d3 = L.marker(
+            [26.8105777, 73.7684549],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_01d0f6dc807b43a880c91279dfc16879 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_056f13cfbba04a8eac05c15c86849ebe = $(`<div id="html_056f13cfbba04a8eac05c15c86849ebe" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Rajasthan</strong> <br><strong><b>Total Cases : 954424</strong><br><strong><font color= red>Deaths : </font>8954</strong><br><strong><font color=green>Recoveries : </font>945440</strong><br><strong><b>Active Cases : 30</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 42489785</strong><br><strong><b>Dose 2  : 19902398</strong><br><strong><b>Total Doses : 62392183</strong><br></div>`)[0];
+                popup_01d0f6dc807b43a880c91279dfc16879.setContent(html_056f13cfbba04a8eac05c15c86849ebe);
+            
+
+            marker_b3fa1a5659f249518f907695b557f6d3.bindPopup(popup_01d0f6dc807b43a880c91279dfc16879)
+            ;
+
+            
+        
+    
+            var circle_marker_c4692c26fcff413286d688a8ccd614f6 = L.circleMarker(
+                [27.601029, 88.45413638680145],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_765a3a4282c24aeaba6a3d28e1a1dcf7 = L.marker(
+            [27.601029, 88.45413638680145],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_499c206e9d034b41866f7ef8d34c042c = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_13ad35c5b9a74141ad8f78c867901081 = $(`<div id="html_13ad35c5b9a74141ad8f78c867901081" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Sikkim</strong> <br><strong><b>Total Cases : 31948</strong><br><strong><font color= red>Deaths : </font>395</strong><br><strong><font color=green>Recoveries : </font>31377</strong><br><strong><b>Active Cases : 176</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 521708</strong><br><strong><b>Dose 2  : 450711</strong><br><strong><b>Total Doses : 972419</strong><br></div>`)[0];
+                popup_499c206e9d034b41866f7ef8d34c042c.setContent(html_13ad35c5b9a74141ad8f78c867901081);
+            
+
+            marker_765a3a4282c24aeaba6a3d28e1a1dcf7.bindPopup(popup_499c206e9d034b41866f7ef8d34c042c)
+            ;
+
+            
+        
+    
+            var circle_marker_9023709ef2c0488084ca9458cff84039 = L.circleMarker(
+                [10.9094334, 78.3665347],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_ae687b02ccf247538f06d349cfcbe455 = L.marker(
+            [10.9094334, 78.3665347],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_043f2a19feaa4f21aac042ed40c29114 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_da751fe31b9741739c896c9637a27610 = $(`<div id="html_da751fe31b9741739c896c9637a27610" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Tamil Nadu</strong> <br><strong><b>Total Cases : 2700593</strong><br><strong><font color= red>Deaths : </font>36083</strong><br><strong><font color=green>Recoveries : </font>2652660</strong><br><strong><b>Active Cases : 11850</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 40797604</strong><br><strong><b>Dose 2  : 16634426</strong><br><strong><b>Total Doses : 57432030</strong><br></div>`)[0];
+                popup_043f2a19feaa4f21aac042ed40c29114.setContent(html_da751fe31b9741739c896c9637a27610);
+            
+
+            marker_ae687b02ccf247538f06d349cfcbe455.bindPopup(popup_043f2a19feaa4f21aac042ed40c29114)
+            ;
+
+            
+        
+    
+            var circle_marker_fc916f4f70c046dbad22dd78fa1fa335 = L.circleMarker(
+                [17.329125, 78.5822228],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_8a47b8d7b31f47d7974cefffc5246a24 = L.marker(
+            [17.329125, 78.5822228],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_6b37c51d89da47fd8065a034d0ab4c61 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_a7e30282784040298f85164a9499c562 = $(`<div id="html_a7e30282784040298f85164a9499c562" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Telengana</strong> <br><strong><b>Total Cases : 671174</strong><br><strong><font color= red>Deaths : </font>3954</strong><br><strong><font color=green>Recoveries : </font>663124</strong><br><strong><b>Active Cases : 4096</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 22243359</strong><br><strong><b>Dose 2  : 9580708</strong><br><strong><b>Total Doses : 31824067</strong><br></div>`)[0];
+                popup_6b37c51d89da47fd8065a034d0ab4c61.setContent(html_a7e30282784040298f85164a9499c562);
+            
+
+            marker_8a47b8d7b31f47d7974cefffc5246a24.bindPopup(popup_6b37c51d89da47fd8065a034d0ab4c61)
+            ;
+
+            
+        
+    
+            var circle_marker_40efc30a866c49c4ba107b941c92938f = L.circleMarker(
+                [23.7750823, 91.7025091],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_9ce871bf917241be9688c276fe9d2aa7 = L.marker(
+            [23.7750823, 91.7025091],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_cafa34db04084a5eaf4d4b66e0594931 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_e95705c2689f4f97aa9a475ace4cb3a5 = $(`<div id="html_e95705c2689f4f97aa9a475ace4cb3a5" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Tripura</strong> <br><strong><b>Total Cases : 84459</strong><br><strong><font color= red>Deaths : </font>816</strong><br><strong><font color=green>Recoveries : </font>83527</strong><br><strong><b>Active Cases : 116</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 2508070</strong><br><strong><b>Dose 2  : 1613685</strong><br><strong><b>Total Doses : 4121755</strong><br></div>`)[0];
+                popup_cafa34db04084a5eaf4d4b66e0594931.setContent(html_e95705c2689f4f97aa9a475ace4cb3a5);
+            
+
+            marker_9ce871bf917241be9688c276fe9d2aa7.bindPopup(popup_cafa34db04084a5eaf4d4b66e0594931)
+            ;
+
+            
+        
+    
+            var circle_marker_636fb09e65774b0487861f6dbe90e7ad = L.circleMarker(
+                [27.1303344, 80.859666],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_19df8c2a29be40f4a48231f77c0db4c8 = L.marker(
+            [27.1303344, 80.859666],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_1439610eda8c4380b21d1fb846dfdfea = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_8515a3ae0ead4115aef054054e93dc77 = $(`<div id="html_8515a3ae0ead4115aef054054e93dc77" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Uttar Pradesh</strong> <br><strong><b>Total Cases : 1710133</strong><br><strong><font color= red>Deaths : </font>22900</strong><br><strong><font color=green>Recoveries : </font>1687135</strong><br><strong><b>Active Cases : 98</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 97888816</strong><br><strong><b>Dose 2  : 32239878</strong><br><strong><b>Total Doses : 130128694</strong><br></div>`)[0];
+                popup_1439610eda8c4380b21d1fb846dfdfea.setContent(html_8515a3ae0ead4115aef054054e93dc77);
+            
+
+            marker_19df8c2a29be40f4a48231f77c0db4c8.bindPopup(popup_1439610eda8c4380b21d1fb846dfdfea)
+            ;
+
+            
+        
+    
+            var circle_marker_a2050dd5413d47dc93e200b67109f576 = L.circleMarker(
+                [30.0417376, 79.089691],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_c3b9d9b89fe4467fb9144614989b0d12 = L.marker(
+            [30.0417376, 79.089691],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_3d9628901f06417285aa8a9164306dd2 = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_5494beb8645241769a52c4b6aa63d095 = $(`<div id="html_5494beb8645241769a52c4b6aa63d095" style="width: 100.0%; height: 100.0%;"><strong><b>State  : Uttarakhand</strong> <br><strong><b>Total Cases : 343876</strong><br><strong><font color= red>Deaths : </font>7400</strong><br><strong><font color=green>Recoveries : </font>336330</strong><br><strong><b>Active Cases : 146</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 7473342</strong><br><strong><b>Dose 2  : 3844544</strong><br><strong><b>Total Doses : 11317886</strong><br></div>`)[0];
+                popup_3d9628901f06417285aa8a9164306dd2.setContent(html_5494beb8645241769a52c4b6aa63d095);
+            
+
+            marker_c3b9d9b89fe4467fb9144614989b0d12.bindPopup(popup_3d9628901f06417285aa8a9164306dd2)
+            ;
+
+            
+        
+    
+            var circle_marker_3ba3a2aeeb9f4ccaa78bfefb3f898018 = L.circleMarker(
+                [22.9964948, 87.6855882],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_aec515486c8c4f5f97605549769f8ce9);
+            
+    
+        var marker_732b406a65f94596b1bafbf6afc1f93f = L.marker(
+            [22.9964948, 87.6855882],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_aec515486c8c4f5f97605549769f8ce9);
+        
+    
+            var popup_e89b0c80ac7e4ef1be1600e951b8b32e = L.popup({maxWidth: '200'
+            
+            });
+
+            
+                var html_4e6c94952f5b4006aa4581378e266a7b = $(`<div id="html_4e6c94952f5b4006aa4581378e266a7b" style="width: 100.0%; height: 100.0%;"><strong><b>State  : West Bengal</strong> <br><strong><b>Total Cases : 1591014</strong><br><strong><font color= red>Deaths : </font>19113</strong><br><strong><font color=green>Recoveries : </font>1563678</strong><br><strong><b>Active Cases : 8223</strong><br><strong><b><font color=green>Vaccine data : </font></strong> <br><strong><b>Dose 1 : 55226050</strong><br><strong><b>Dose 2  : 21196433</strong><br><strong><b>Total Doses : 76422483</strong><br></div>`)[0];
+                popup_e89b0c80ac7e4ef1be1600e951b8b32e.setContent(html_4e6c94952f5b4006aa4581378e266a7b);
+            
+
+            marker_732b406a65f94596b1bafbf6afc1f93f.bindPopup(popup_e89b0c80ac7e4ef1be1600e951b8b32e)
+            ;
+
+            
+        
+</script>
